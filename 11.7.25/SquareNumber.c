@@ -8,7 +8,6 @@ int main(){
         r=num%10;
         sum+=pow(r,2);
         num=num/10;
-        
     }
     printf("%d",sum);
 }
