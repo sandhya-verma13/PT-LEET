@@ -5,7 +5,7 @@ int main(){
     int count=0;
     printf("Enter the number: ");
     scanf("%d",&num);
-    while(sum!=1 || count==10){
+    while(sum!=1 && count<=10){
         sum=0;
         while(num>0){
         r=num%10;
